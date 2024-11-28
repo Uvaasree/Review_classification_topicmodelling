@@ -32,7 +32,11 @@ Groups similar reviews for pattern discovery:
 ### 5. **Fake Review Classification**  
 Classifies reviews as fake or real using:  
 - **Traditional Machine Learning**: Logistic Regression, Random Forest, and SVM.  
-- **Deep Learning**: LSTM for sequential modeling and BERT for context-aware classification.  
+- **Deep Learning**: LSTM for sequential modeling and BERT for context-aware classification.
+
+### 6. **Sentiment Analysis**  
+Classifies sentiment using:  
+- **Pretrained model**: pretrained model in hugging face.  
 
 ## Business Use Cases
 
@@ -52,7 +56,10 @@ Classifies reviews as fake or real using:
 - Assign topics based on word distributions.
 
 ### **Clustering**
-- Apply **K-Means** or **DBSCAN** to group reviews.  
+- Apply **K-Means** or **DBSCAN** to group reviews.
+
+ ### **Sentiment Analysis**
+- Apply Pretrained model from hugging face to predict sentiment of a review.
 
 ### **Fake Review Classification**
 1. Tokenize reviews.  
@@ -80,10 +87,3 @@ The project evaluates models using:
 
 ---
 
-## Future Enhancements
-
-- Improve classification using more advanced transformers (e.g., RoBERTa).  
-- Automate data collection from live review platforms.  
-- Add sentiment analysis as an additional layer of review insights.
-
----
